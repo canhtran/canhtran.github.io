@@ -1,8 +1,8 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
+title:            "My Blog"
+description:      "Viết lách lung tung, tùy cảm hứng =]]"
+url:              http://blog.tranduycanh.com # Site url, without a slash at the end.
+signoff:          "canh" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
@@ -14,6 +14,9 @@ links:
   - name:         About me
     url:          /about
     external:     false
+  - name:         Blog Tiếng Anh
+    url:          http://www.tranduycanh.com
+    external:     true
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
