@@ -1,0 +1,127 @@
+body {
+    position: relative;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+table {
+  @extend .table;
+}
+
+.sidebar-about {
+    max-width: 100%;
+    font-size: 0.75em;
+    line-height: 1.5;
+}
+.sidebar-about .page-header {
+    border-bottom: none;
+}
+
+.author-header img {
+    max-width: 50%;
+}
+
+.author ul{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.author li {
+    white-space: nowrap;
+    list-style: none;
+}
+
+.author a {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: inherit;
+    font-size: 1em;
+}
+
+.affix{
+    top: 20px;
+}
+
+.tags {
+    font-size: 0.75em;
+}
+
+/*Home page article style*/
+article a,
+article a:hover,
+article a:focus,
+article a:active {
+    color: inherit;
+}
+
+article a:hover {
+    text-decoration: none;
+}
+
+article a h4:hover {
+    text-decoration: underline;
+}
+
+h3.page-header,
+article a .page-meta {
+    color: #9ba1a6;
+    font-size: 1em;
+}
+
+article a .page-meta {
+    font-size: 0.75em;
+}
+
+article .article-meta {
+    font-size: 0.85em;
+}
+
+.archive__subtitle {
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+}
+hr.artile_seperate {
+    border-top: none;
+}
+
+.tag {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #bdc1c4;
+    border-radius: 4px;
+}
+
+.previous:hover, .next:hover {
+    background: #f5f5f5;
+}
+
+.pager a:hover {
+    text-decoration: none;
+}
+
+@media(max-width: 1200px){
+    .affix{
+        position: relative !important;
+    }
+  }
+
+@media (min-width: 1200px) {
+  .affix {
+    width: 263px;
+  }
+}

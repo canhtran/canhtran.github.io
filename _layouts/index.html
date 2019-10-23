@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<style>
+
+</style>
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3 hidden-sm hidden-xs">
+          <div class="sidebar-about" data-spy="affix" data-offset-top="40">
+              <div class="page-header author-header">
+                  {% if site.sidebar-avatar %}
+                      <img class="img-responsive img-center img-circle" src="{{site.sidebar-avatar}}" />
+                  {% endif %}
+              </div>
+              <div class="author">
+                  <h4 class="author-name">Tran Duy Canh (Calvin)</h4>
+                  {% if site.sidebar-about-description %}
+                      <p>{{site.sidebar-about-description}}</p>
+                  {% endif %}
+                  <ul>
+                      <li>
+                          <a href="#"><i class="fa fa-map-marker" aria-hidden='true'></i> Singapore</a>
+                      </li>
+                      {% if site.twitter_username %}
+                      <li>
+                          <a href="https://twitter.com/{{ site.twitter_username }}">
+                              <i class="fa fa-twitter" aria-hidden='true'></i> Twitter
+                          </a>
+                      </li>
+                      {% endif %}
+                      {% if site.linkedin_visitor_id %}
+                      <li>
+                          <a href="https://www.linkedin.com/in/{{ site.linkedin_visitor_id }}">
+                              <i class="fa fa-linkedin" aria-hidden='true'></i> Linkedin
+                          </a>
+                      </li>
+                      {% endif %}
+                      {% if site.facebook_username %}
+                      <li>
+                          <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                              <i class="fa fa-facebook" aria-hidden='true'></i> Facebook
+                          </a>
+                      </li>
+                      {% endif %}
+                      {% if site.github_username %}
+                      <li>
+                          <a target="_blank" href="https://github.com/{{ site.github_username }}">
+                              <i class="fa fa-github" aria-hidden='true'></i> Github
+                          </a>
+                      </li>
+                      {% endif %}
+                      <li>
+                          <a target="_blank" href="{{ site.resume }}">
+                              <i class="fa fa-file-text" aria-hidden="true"></i> Resume
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          {% if site.affliations %}
+          <hr>
+          <h5>Affiliations</h5>
+          <ul class="tags" style="list-style:none; text-align:left; margin:0; padding:0;">
+              {% for affliation in site.affliations %}
+                  <li style="text-align:left;"><a href="{{affliation.href}}">{{affliation.title}}</a></li>
+              {% endfor %}
+          </ul>
+          {% endif %}
+      </div>
+      <div class="col-lg-9">
+          {{ content }}
+      </div>
+  </div>
+</div>

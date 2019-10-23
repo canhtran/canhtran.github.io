@@ -1,0 +1,63 @@
+---
+layout: index
+---
+
+
+<h2> <span class="text-muted">#</span> {{ page.title }}</h2>
+<p class="meta text-lowercase text-muted"><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
+<br />
+
+{{ content }}
+
+<br />
+<div class="tags">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    {% for tag in page.tags %}
+    <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+</div>
+
+<hr>
+
+<div class="pager">
+    <div class="col-md-6 previous">
+        {% if page.previous.url %}
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
+            <i class="fa fa-backward" aria-hidden="true"></i> Previous<br>
+            <span>{{page.previous.title}}</span>
+            </a>
+        {% endif %}
+    </div>
+
+    <div class="col-md-6 next">
+        {% if page.next.url %}
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
+            Next <i class="fa fa-forward" aria-hidden="true"></i><br>
+            <span>{{page.next.title}}</span>
+            </a>
+        {% endif %}
+    </div>
+</div>
+
+
+{% if site.disqus_username %}
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread"></div>
+</div>
+{% endif %}
+
+            <!-- </div>
+        </div>
+    </div>
+</section> -->
+
+<script>
+
+(function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//tranduycanh-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
