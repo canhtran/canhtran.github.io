@@ -13,7 +13,7 @@ plugins: [jekyll-paginate]
 # SNS settings
 RSS: false
 github_username:    canhtran
-twitter_username:  CanhDTran
+twitter_username:  holacalvinhere
 # facebook_username:  duka.tran
 linkedin_visitor_id: canhduytran
 resume: /extras/resume/CV-tranduycanh2017(v3).pdf
@@ -43,7 +43,8 @@ disqus_username: tranduycanh-com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "I'm a data scientist with background from software engineer. Writting the code is the way for me to change the world =]]"
+sidebar-name: Calvin Tran
+sidebar-about-description: "I'm a data guy who currently working in a ride-hailing company in  Singapore"
 sidebar-avatar: /assets/img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

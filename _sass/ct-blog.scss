@@ -47,6 +47,7 @@ table {
     padding-bottom: 2px;
     color: inherit;
     font-size: 1em;
+    text-decoration: none;
 }
 
 .affix{
@@ -70,7 +71,8 @@ article a:hover {
 }
 
 article a h4:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: blue;
 }
 
 h3.page-header,

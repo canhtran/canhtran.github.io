@@ -16,32 +16,18 @@ layout: default
                   {% endif %}
               </div>
               <div class="author">
-                  <h4 class="author-name">Tran Duy Canh (Calvin)</h4>
+                  <h4 class="author-name">{{site.sidebar-name}}</h4>
                   {% if site.sidebar-about-description %}
                       <p>{{site.sidebar-about-description}}</p>
                   {% endif %}
                   <ul>
-                      <li>
+                      <!-- <li>
                           <a href="#"><i class="fa fa-map-marker" aria-hidden='true'></i> Singapore</a>
-                      </li>
+                      </li> -->
                       {% if site.twitter_username %}
                       <li>
-                          <a href="https://twitter.com/{{ site.twitter_username }}">
-                              <i class="fa fa-twitter" aria-hidden='true'></i> Twitter
-                          </a>
-                      </li>
-                      {% endif %}
-                      {% if site.linkedin_visitor_id %}
-                      <li>
-                          <a href="https://www.linkedin.com/in/{{ site.linkedin_visitor_id }}">
-                              <i class="fa fa-linkedin" aria-hidden='true'></i> Linkedin
-                          </a>
-                      </li>
-                      {% endif %}
-                      {% if site.facebook_username %}
-                      <li>
-                          <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-                              <i class="fa fa-facebook" aria-hidden='true'></i> Facebook
+                          <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+                              <i class="fa fa-twitter" aria-hidden='true' style="color: #55acee;"></i> Twitter
                           </a>
                       </li>
                       {% endif %}
@@ -52,9 +38,16 @@ layout: default
                           </a>
                       </li>
                       {% endif %}
+                      {% if site.linkedin_visitor_id %}
+                      <li>
+                          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_visitor_id }}">
+                              <i class="fa fa-linkedin" aria-hidden='true' style="color: #007bb6;"></i> Linkedin
+                          </a>
+                      </li>
+                      {% endif %}
                       <li>
                           <a target="_blank" href="{{ site.resume }}">
-                              <i class="fa fa-file-text" aria-hidden="true"></i> Resume
+                              <i class="fa fa-file-text" aria-hidden="true" style="color: yellowgreen;"></i> Resume
                           </a>
                       </li>
                   </ul>

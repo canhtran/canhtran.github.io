@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calvin Duy Canh Tran</title>
+    <description></description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 24 Oct 2019 02:25:26 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2019 02:25:26 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>How do I deploy my machine learning model on local kubernetes</title>
+        <description>
+</description>
+        <pubDate>Sat, 14 Sep 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2019/09/14/how-do-i-deploy-my-machine-learning-model-on-local-kubernetes/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2019/09/14/how-do-i-deploy-my-machine-learning-model-on-local-kubernetes/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>DataOps part 3: deploy Titanic to kubernetes</title>
+        <description>
+</description>
+        <pubDate>Mon, 26 Aug 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2019/08/26/dataops-part-3-deploy-titanic-to-kubernetes/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2019/08/26/dataops-part-3-deploy-titanic-to-kubernetes/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>DataOps part 2: Sail the Titanic to API</title>
+        <description>
+</description>
+        <pubDate>Thu, 15 Aug 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2019/08/15/dataops-part-2-sail-the-titanic-to-api/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2019/08/15/dataops-part-2-sail-the-titanic-to-api/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>DataOps: Kubernetes on local with vagrant and kubeadm</title>
+        <description>
+</description>
+        <pubDate>Wed, 14 Aug 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2019/08/14/dataops-kubernetes-on-local-with-vagrant-and-kubeadm/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2019/08/14/dataops-kubernetes-on-local-with-vagrant-and-kubeadm/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Knowledge sharing with Gitbook</title>
+        <description>
+</description>
+        <pubDate>Tue, 29 Jan 2019 00:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2019/01/29/knowledge-sharing-with-gitbook/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2019/01/29/knowledge-sharing-with-gitbook/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My road to become VIM user</title>
+        <description>
+</description>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2018/09/23/my-road-to-become-vim-user/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/09/23/my-road-to-become-vim-user/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Python Data Analysis on Japanese Adult Video (JAV) dataset</title>
+        <description>
+</description>
+        <pubDate>Wed, 28 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/2018/03/28/python-data-analysis-on-japanese-adult-video-jav-dataset-18/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/28/python-data-analysis-on-japanese-adult-video-jav-dataset-18/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
