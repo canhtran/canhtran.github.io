@@ -4,7 +4,7 @@ layout: index
 
 <h3 class="page-header archive__subtitle">Latest Posts</h3>
 {% for post in paginator.posts %}
-<article>
+<!-- <article>
     <a target="_blank" href="{{ post.medium_url }}">
         <div class="meta-info">
             <h4>{{ post.title }}</h4>
@@ -14,8 +14,32 @@ layout: index
             <p class="article-meta">{{ post.subtitle }}</p>
         {% endif %}
     </a>
-</article>
+</article> -->
 <hr class="artile_seperate">
+
+<article>
+    <header class="post-header">
+        <h4 class="post-title"><a class="post-link" target="_blank" href="{{ post.medium_url }}">{{ post.title }}</a></h4>
+        <div class="post-meta">
+                <p class="page-meta"><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+        <!-- <div class="post-category">
+            <a href=""> themes </a>
+            <a href=""> syntax </a>
+            </div> -->
+        </div> 
+    </header>
+    
+    <div class="post-content">
+        <div class="post-summary">
+        {% if post.subtitle %}
+            <p class="article-meta">{{ post.subtitle }}</p>
+        {% endif %}
+        </div>
+        <div class="read-more">
+        <a target="_blank" href="{{ post.url }}" class="read-more-link">Read more...</a>
+        </div>
+    </div>
+</article>
 {% endfor %}
 <!-- <a href="feed.xml" style="color: #0085a1">(RSS)</a> -->
 
