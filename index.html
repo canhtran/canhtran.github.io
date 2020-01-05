@@ -4,24 +4,12 @@ layout: index
 
 <h3 class="page-header archive__subtitle">Latest Posts</h3>
 {% for post in paginator.posts %}
-<!-- <article>
-    <a target="_blank" href="{{ post.medium_url }}">
-        <div class="meta-info">
-            <h4>{{ post.title }}</h4>
-            <p class="page-meta"><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-        </div>
-        {% if post.subtitle %}
-            <p class="article-meta">{{ post.subtitle }}</p>
-        {% endif %}
-    </a>
-</article> -->
-<hr class="artile_seperate">
-
+<!-- <hr class="artile_seperate"> -->
 <article>
     <header class="post-header">
-        <h4 class="post-title"><a class="post-link" target="_blank" href="{{ post.medium_url }}">{{ post.title }}</a></h4>
+        <h4 class="post-title"><a class="post-link" {% if post.medium_url %} target="_blank" href="{{ post.medium_url }}" {% else %} href="{{ post.url }}" {% endif %}>{{ post.title }}</a></h4>
         <div class="post-meta">
-                <p class="page-meta"><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+            <span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date: "%B %-d, %Y" }}
         <!-- <div class="post-category">
             <a href=""> themes </a>
             <a href=""> syntax </a>
@@ -32,11 +20,11 @@ layout: index
     <div class="post-content">
         <div class="post-summary">
         {% if post.subtitle %}
-            <p class="article-meta">{{ post.subtitle }}</p>
+            <p>{{ post.subtitle }}</p>
         {% endif %}
         </div>
         <div class="read-more">
-        <a target="_blank" href="{{ post.url }}" class="read-more-link">Read more...</a>
+        <a {% if post.medium_url %} target="_blank" href="{{ post.medium_url }}" {% else %} href="{{ post.url }}" {% endif %} class="read-more-link">Read more...</a>
         </div>
     </div>
 </article>
