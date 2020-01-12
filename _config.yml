@@ -1,7 +1,7 @@
 title: "Calvin Canh Tran"
 author: "Calvin"
 description: "Really cool blog about ... something"
-permalink: /:title/
+permalink: /:year/:month/:day/:title.html/
 lang: "en"
 
 dark_header: true            # keep the header dark
