@@ -64,3 +64,5 @@ sass:
 #       href: "http://kudosdata.com"
 #   }
 # ]
+
+theme: jekyll-theme-cayman
