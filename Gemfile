@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-default-layout'
-# gem 'jekyll-feed'
+gem 'jekyll-feed'
