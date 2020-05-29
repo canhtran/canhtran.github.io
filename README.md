@@ -5,7 +5,8 @@
 </div>
 
 
-<b>CalvinIO</b> is my personal website. All the posts are published to Medium.
+
+CalvinIO is my personal website. All the posts are published to Medium.
 
 ## Setting up
 
