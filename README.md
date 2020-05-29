@@ -1,10 +1,8 @@
 
-<div style="padding-bottom: 10%;" align="center">
-    <img width="260" height="259" src="https://avatars1.githubusercontent.com/u/3214379?s=460&u=83ed5fc6afc60d59c0b59227717669affaec6530&v=4">
+<div>
+    <img width="100" height="100" src="assets/img/logo.svg">
 </div>
-
-
-
+<br/><br/>
 CalvinIO is my personal website. All the posts are published to Medium.
 
 ## Setting up
