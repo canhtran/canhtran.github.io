@@ -1,13 +1,8 @@
 ---
-
 title: "Recap of The Decade, 201x"
-
 date: 2020-01-01
-
 author: "Calvin Tran"
-
 categories: "resolution"
-
 ---
 
 Time flies by in the blink of an eye, from 2009 to 2019, ten years have passed. Personally, this decade is very remarkable. It likes an adventure for me; during those years, I joined university, graduated, got my first job, moved to new country, had a master degree and travel to different countries.
