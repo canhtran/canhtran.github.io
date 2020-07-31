@@ -3,7 +3,7 @@ title: "My Presentation"
 permalink: "/presentation/"
 ---
 
-<h3>Webinar: Big Data Architecture</h3>
+<h3>Webinar: Big Data Architecture on 2020-07-31</h3>
 
 My sharing with Vietnamese community about mordern architecture with "Big Data"
 
