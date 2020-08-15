@@ -38,8 +38,8 @@
   gtag('config', 'UA-45252416-5');
 </script>
 
-<!-- <header {% if site.navigation and site.icons %}class="full"{% endif %}> -->
-<header>
+<header {% if site.navigation and site.icons %}class="full"{% endif %}>
+<!-- <header> -->
   {% unless site.hide_title %}
     <h2>
       {% include logo.html %}

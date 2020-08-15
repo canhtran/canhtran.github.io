@@ -13,7 +13,7 @@ I graduated with BS in Vietnam and Mtech from National University of Singapore.
 
 Feel me to reach out to me at
 
-<div>
+<div class="about">
     <ul>
     <li>
         <a>
@@ -52,7 +52,7 @@ Feel me to reach out to me at
     ul {
         list-style: none;
     }
-    svg {
+    .about svg {
         display: inline-block;
         vertical-align: middle;
         width: 16px;
