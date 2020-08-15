@@ -26,7 +26,7 @@ Feel me to reach out to me at
                     C13.870162,16.0802422,14.4798384,16.0802422,14.9370966,15.7754021z"></path>
                 </svg>
             </span>
-            <span>trandcanh[at]gmail.com</span>
+            <span>me[at]calvinio.com</span>
         </a>
     </li>
     <li>
