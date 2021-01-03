@@ -1,49 +1,48 @@
 ---
 ---
 
-.icons svg
+@import index, highlight
+
+.title
+  font-size: 1.4em
+
+.archive
   font-size: 1.1em
+
+.archive time
+  display: inline-block
+  min-width: 10ch
+  margin: 0 .2em
+
+{% if site.external %}
+
+.icon
   height: 1em
   width: 1em
   fill: currentColor
   transition: .2s color
+  vertical-align: middle
+  margin-bottom: .15em
 
-.icons a:hover svg
-  color: #919191
+a:hover .icon
+  color: reduce(100)
 
-.full h2
-  font-size: 1.7em
-  width: 100%
-  margin-top: .1em
-  margin-bottom: .5em
+{% endif %}
 
-.categories
-  color: #68f
+{% if site.show_excerpts %}
 
-.archive li
-  font-size: 1.1em
-  margin: .6em 0
+.more
+  margin: 2em 0 1em
 
-.archive time
-  display: inline-block
-  min-width: 9.5ch
-  margin: 0 .25em
+.more a
+  border-radius: 2px
+  border: 1.5px solid $link-color
+  padding: .4em .8em
+  transition: .2s background, .2s color
 
-.embed
-  position: relative
-  padding-bottom: 56.25%
-  margin: 1.5em 0
+.more a:hover
+  color: #fff
+  background: $link-color
+  text-decoration: inherit
 
-.embed iframe
-  position: absolute
-  width: 100%
-  height: 100%
-
-@media (min-width: 70em)
-  .large img, .large.embed
-    max-width: 140%
-    margin-right: -20%
-    margin-left: -20%
-
-  .embed.large
-    padding-bottom: 78.75%
+{% endif %}

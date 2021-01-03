@@ -3,6 +3,7 @@ title:      "Python Data Analysis on Japanese Adult Video (JAV) dataset"
 date:       2018-03-28
 author:     "Canh Tran"
 categories: "EDA"
+layout:     "post"
 ---
 
 I have been working with Python for sometimes. Most of the time I build the machine learning API and spend times playing with algorithms, I haven’t seriously taking the Analysis part. I taught myself for data analysis through courses, video,..etc.. and it comes a time I think that I have to do something. Well, practising always better than studying.

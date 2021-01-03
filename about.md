@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 permalink: "/about/"
+layout: "page"
 ---
 
 I'm Calvin, an engineer from Vietnam and based in Singapore.

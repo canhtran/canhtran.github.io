@@ -2,6 +2,7 @@
 title:      "Knowledge sharing with Gitbook"
 date:       2019-01-29
 author:     "Canh Tran"
+layout:    "post"
 ---
 
 I was looking around to find a suitable platform for note down all my knowledge, bugs, issues that I’m facing during the work. Some criteria that I concern
