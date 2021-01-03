@@ -35,6 +35,7 @@ Oh, I almost forgot to mention that the exam took 180 minutes and able to take a
 
 ## How do I prepare for it?
 ![Photo by Rishabh Agarwal on Unplash](https://miro.medium.com/max/1400/1*eQiIx2AypOXM4FEzVS6Xdg.jpeg)
+*Photo by Rishabh Agarwal on Unplash*
 
 All of my learning resources are free from Microsoft. When I first sign up for the free account, Microsoft gives 200$ credits for 30 days. That enough to practice for the exam, actually I spent hardly around 50$ on it.
 

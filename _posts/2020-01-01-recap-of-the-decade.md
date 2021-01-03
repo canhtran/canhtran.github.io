@@ -23,7 +23,8 @@ It was a great year to me until I had new opportunity to migrate to Singapore an
 
 I still remember the moments that I won LTA Hackathon, met Prime Minister Lee Hsien Loong and the happiness of my mom - dad on my graduation day in NUS in 2016.
 
-<!-- ![graduation day](/assets/posts/201x_resolution/grad.jpg){:height="40%" width="40%"} -->
+![graduation day](/assets/posts/201x_resolution/grad.jpg){:height="40%" width="40%"}
+*My mom and dad*
 
 
 ## What I did well.
