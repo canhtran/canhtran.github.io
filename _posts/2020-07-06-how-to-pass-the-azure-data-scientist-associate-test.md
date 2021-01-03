@@ -3,6 +3,7 @@ title:      "How to pass the Azure Data Scientist Associate Test"
 date:       2020-07-06
 author:     "Canh Tran"
 categories: "DATA SCIENCE"
+layout:     "post"
 ---
 
 ** This article covers the most recent exam syllabus. I took the exam in 13th June 2020 **

@@ -1,6 +1,7 @@
 ---
 title: "My Presentation"
 permalink: "/presentation/"
+layout: "post"
 ---
 
 <h3>Webinar: Big Data Architecture on 2020-07-31</h3>

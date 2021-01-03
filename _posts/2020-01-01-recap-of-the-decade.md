@@ -3,6 +3,7 @@ title: "Recap of The Decade, 201x"
 date: 2020-01-01
 author: "Calvin Tran"
 categories: "resolution"
+layout: "post"
 ---
 
 Time flies by in the blink of an eye, from 2009 to 2019, ten years have passed. Personally, this decade is very remarkable. It likes an adventure for me; during those years, I joined university, graduated, got my first job, moved to new country, had a master degree and travel to different countries.
@@ -22,7 +23,8 @@ It was a great year to me until I had new opportunity to migrate to Singapore an
 
 I still remember the moments that I won LTA Hackathon, met Prime Minister Lee Hsien Loong and the happiness of my mom - dad on my graduation day in NUS in 2016.
 
-![graduation day](/assets/posts/201x_resolution/grad.jpg){:height="40%" width="40%"}
+<!-- ![graduation day](/assets/posts/201x_resolution/grad.jpg){:height="40%" width="40%"} -->
+
 
 ## What I did well.
 
